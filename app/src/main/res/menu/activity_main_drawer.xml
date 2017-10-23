@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Destination">
+        <menu>
+            <item
+                android:id="@+id/marrakech"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MARRAKECH" />
+            <item
+                android:id="@+id/casablanca"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CASABLANCA" />
+        </menu>
+    </item>
+
+    <item android:title="Hebergements">
+        <menu>
+            <item
+                android:id="@+id/hotels"
+                android:icon="@drawable/hotel"
+                android:title="Hotels" />
+            <item
+                android:id="@+id/riads"
+                android:icon="@drawable/residence_icon"
+                android:title="Riads" />
+            <item
+                android:id="@+id/residences"
+                android:icon="@drawable/residence_icon"
+                android:title="Residences" />
+            <item
+                android:id="@+id/auberges"
+                android:icon="@drawable/auberge_icon"
+                android:title="Auberges" />
+        </menu>
+    </item>
+    <item android:title="Loisirs et Sorties">
+        <menu>
+            <item
+                android:id="@+id/restaurnats"
+                android:icon="@drawable/restaurant_icon"
+                android:title="Restaurnats" />
+            <item
+                android:id="@+id/cafes"
+                android:icon="@drawable/cafe_icon"
+                android:title="Cafés" />
+            <item
+                android:id="@+id/piscines"
+                android:icon="@drawable/piscine_icon"
+                android:title="Piscines" />
+            <item
+                android:id="@+id/cinemas"
+                android:icon="@drawable/cinemaicon"
+                android:title="Cinémas" />
+        </menu>
+    </item>
+    <item android:title="Shopping">
+        <menu>
+            <item
+                android:id="@+id/international_brand"
+                android:icon="@drawable/internationalbrand"
+                android:title="International Brand" />
+            <item
+                android:id="@+id/local_products"
+                android:icon="@drawable/local_product"
+                android:title="Local Products" />
+            <item
+                android:id="@+id/artisanat_marocaine"
+                android:icon="@drawable/artisanat"
+                android:title="Artisanat Marocaine" />
+        </menu>
+    </item>
+    <item android:title="Voyages">
+        <menu>
+            <item
+                android:id="@+id/location_voitures"
+                android:icon="@drawable/location_voiture"
+                android:title="Location de voitures" />
+            <item
+                android:id="@+id/agence_voyage"
+                android:icon="@drawable/agence_voyage"
+                android:title="Agence de voyage" />
+            <item
+                android:id="@+id/guides_touristiques"
+                android:icon="@drawable/tourist_guide"
+                android:title="Guides Touristiques" />
+            <item
+                android:id="@+id/visiter"
+                android:icon="@drawable/visit"
+                android:title="à visiter" />
+        </menu>
+    </item>
+
+</menu>

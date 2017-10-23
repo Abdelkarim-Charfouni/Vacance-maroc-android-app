@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HotelsRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.charfouni.karim.vacancemaroc.HotelsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <GridView
+        android:id="@+id/hotelsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:columnWidth="300dp"
+        android:horizontalSpacing="3dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5dp" />
+</RelativeLayout>
